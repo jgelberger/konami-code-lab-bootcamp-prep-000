@@ -15,15 +15,16 @@ let index = 0;
 
 function init() {
   
-  function 
-  const key = event.key;
-  if (key === codes[index]) {
-    index++;
-  
-    if (index === codes.length) {
-      alert('')
+  function onKeyDownHandler(e) {
+    
+    const key = event.key;
+    if (key === codes[index]) {
+      index++;
+    
+      if (index === codes.length) {
+        alert('')
+      }
     }
-  }
  
  document.body.addEventListener('keydown', )
  
