@@ -11,6 +11,9 @@ const codes = [
   "a"
 ];
 
+const body = document
+let index = 0;
+
 function init() {
-  // your code here
+  
 }
